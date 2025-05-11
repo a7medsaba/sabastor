@@ -1,8 +1,8 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
-from bot.database import Database
-from bot.config import ADMIN_USER_ID
-from bot.validation import Validator
+from database import Database
+from config import ADMIN_USER_ID
+from validation import Validator
 
 class AdminHandlers:
     @staticmethod
