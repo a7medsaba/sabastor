@@ -1,6 +1,6 @@
 import json
 import os
-from bot.config import FILE_PATHS
+from config import FILE_PATHS
 from datetime import datetime
 
 class Database:
