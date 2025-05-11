@@ -1,9 +1,9 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
-from bot.auth import AuthHandlers, GET_NAME, GET_PHONE
-from bot.user import UserHandlers
-from bot.admin import AdminHandlers
-from bot.offers import OfferHandlers
-from bot.config import BOT_TOKEN
+from auth import AuthHandlers, GET_NAME, GET_PHONE
+from user import UserHandlers
+from admin import AdminHandlers
+from offers import OfferHandlers
+from config import BOT_TOKEN
 
 def setup_handlers(dp):
     # نظام التسجيل
