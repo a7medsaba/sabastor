@@ -1,5 +1,5 @@
-from bot.config import DEFAULT_CURRENCY, CURRENCY_RATES
-from bot.datetime import datetime
+from config import DEFAULT_CURRENCY, CURRENCY_RATES
+from datetime import datetime
 
 class CurrencyConverter:
     @staticmethod
