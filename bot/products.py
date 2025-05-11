@@ -1,7 +1,7 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
-from bot.database import Database
-from bot.currency import CurrencyConverter
+from database import Database
+from currency import CurrencyConverter
 
 class ProductHandlers:
     @staticmethod
